@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color: $background-color;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: $soft-white;
+}
+
+ul {
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}

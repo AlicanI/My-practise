@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="navigation" class="navigation">
+        <nav>
+            <div class="container">
+                <div class="nav">
+                    <div class="nav__left">
+                        <div class="nav__left__logo">
+                            <a href="index.html"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <div class="nav__left__search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Arama yap">
+                        </div>
+                       
+                    </div>
+                    <div class="nav__right">
+                        <ul class="nav__right__links">
+                            <li>
+                                <button class="btn-square">
+                                    <i class="fa-solid fa-magnifying-glass middle-text-white-bold"></i>
+                                    <p class="small-text-whit">Arama Yap</p>
+                                </button>
+                            </li>
+                            <li>
+                                <a href="index.html" class="icon">
+                                    <i class="fa-solid fa-house"></i>
+                                    <p>Ana Sayfa</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="my-contact.html" class="icon">
+                                    <i class="fa-solid fa-user-group"></i>
+                                    <p>İş Ağım</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="jobs.html" class="icon">
+                                    <i class="fa-solid fa-suitcase"></i>
+                                    <p>İş İlanları</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="messages.html" class="icon">
+                                    <i class="fa-solid fa-comment-dots"></i>
+                                    <p>Mesajlaşma</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="notifications.html" class="icon">
+                                    <i class="fa-solid fa-bell"></i>
+                                    <p>Bildirimler</p>
+                                </a>
+                            </li>
+                            <li>    
+                                <button class="btn-square">
+                                    <a href="me.html" class="btn-square__img">
+                                        <img src="../img/user.jpg" alt="">
+                                    </a>
+                                    <div class="btn-square__text">
+                                        <p>Ben</p><i class="fa-solid fa-caret-down"></i>
+                                    </div>
+                                </button>
+                            </li>
+                           
+                            <li>
+                                <button class="btn-square" style="border: none;">
+                                    <div class="btn-square__icon">
+                                        <i class="fa-solid fa-dice-six"></i>
+                                    </div>
+                                    <div class="btn-square__text">
+                                        <p>İş</p><i class="fa-solid fa-caret-down"></i>
+                                    </div>
+                                </button>
+                            </li>
+
+                            <li class="hidden-li">
+                                <button>
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </button>
+                            </li>
+                            
+                            <div class="premium-link">
+                                <a href="premium.html" >
+                                    Premium'u ücretsiz deneyin.
+                                </a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="core-area" class="core-area">
+        <div class="container-3"> 
+            <div class="left-side">
+              <div class="manage-contact">
+                  <div class="manage-contact__header">
+                      <h2 class="middle-text-white-bold">Ağımı Yönet</h2>
+                  </div>
+                  <div class="manage-contact__body">
+                        <ul>
+                            <li><a href="" class="middle-text-gray-bold"><i class="fa-solid fa-user-group"></i><span>Bağlantı</span></a></li>
+                            <li><a href="" class="middle-text-gray-bold"><i class="fa-solid fa-file"></i><span>Kişiler</span></a></li>
+                            <li><a href="" class="middle-text-gray-bold"><i class="fa-solid fa-comment"></i><span>Takip Ettiğim Kişiler</span></a></li>
+                            <li><a href="" class="middle-text-gray-bold"><i class="fa-solid fa-calendar-days"></i><span>Etkinlik</span></a></li>
+                            <li><a href="" class="middle-text-gray-bold"><i class="fa-solid fa-file"></i></i><span>Sayfa</span></a></li>
+                            <li><a href="" class="middle-text-gray-bold"><i class="fa-solid fa-pager"></i></i><span>Haber Bültenleri</span></a></li>
+                            <li><a href="" class="middle-text-gray-bold"><i class="fa-solid fa-hashtag"></i></i><span>Hashtag</span></a></li>
+                            <li><button class="btn-make-contact">Daha az göster<i class="fa-solid fa-angle-up"></i></button></li>
+                        </ul>
+                  </div>
+                  <div class="manage-contact__footer">
+                      <button class="btn-contact-info underlined-blue">İletişim ağınızı büyütün</button>
+                  </div>
+                  <div class="like-footer" style="text-align: center;">
+                    <ul>
+                        <li><a href="" class="small-text-gray underlined-blue">Hakkında</a></li>
+                        <li><a href="" class="small-text-gray underlined-blue">Erişebilirlik</a></li>
+                        <li><a href="" class="small-text-gray underlined-blue">Yardım Merkezi</a></li>
+                        <li><button><span class="underlined-blue">Gizlilik ve Koşulları<i class="fa-solid fa-chevron-down"></i></span></button></li>
+                        <li><a href="" class="small-text-gray underlined-blue">Reklam Tercihleri</a></li>
+                        <li><a href="" class="small-text-gray underlined-blue">Reklam</a></li>
+                        <li><button><span class="underlined-blue">Ticari Hizmetler<i class="fa-solid fa-chevron-down"></i></span></button></li>
+                        <li><a href="" class="small-text-gray underlined-blue">Linkedin uygulamasını yükle</a></li> 
+                        <li><a href="" class="small-text-gray underlined-blue">Daha fazla</a></li>
+                    </ul>
+                    <div><p class="small-text-white"><span>Linked </span><i class="fa-brands fa-linkedin"></i>  LinkedIn Corporation © 2022
+                    </p></div>
+                </div>
+              </div>
+            </div>
+            <div class="middle-side">
+                <div class="invitation">
+                    <div class="invitation__inner">
+                        <h3 class="middle-text-white">Bekleyen davetiye yok</h3>
+                        <a class="middle-text-gray-bold" href="">Yönet</a>
+                    </div>
+                </div>
+                <div class="add-personal-contact">
+                    <div class="add-personal-contact__header">
+                        <img src="../img/icon/pen.svg" alt="" class="mini-img">
+                        <h3 class="middle-text-white-bold">Kişisel bağlantıları ekle</h3>
+                        <button class="ind-icon" style="right: 1rem; top: 1rem;"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                    <div class="add-personal-contact__body">
+                        <p class="small-text-gray">Size ve diğerlerine bağlantı kurmaya yardımcı olmak için kişilerinizi periyodik olarak yükleyecek ve saklayacağız. Kiminle bağlantı kuracağınızı ve kimi davet edeceğinizi siz seçersiniz. <button class="btn-contact-info underlined-blue">Daha fazla bilgi edin.</button></p>
+                        <input type="text" placeholder="E-posta adresi giriniz">
+                    </div>
+                    <div class="add-personal-contact__footer">
+                        <button class="btn-see-feed" style="width: 100px !important;">Devam et</button>
+                        <a href="" class="small-text-gray underlined-blue">Daha fazla seçenek</a>
+                    </div>
+                </div>
+                <div class="regular-card-big" style="margin-top: 2rem;">
+                    <div class="regular-card-big__header" style="display: flex; justify-content: space-between; padding: 0 2rem;">
+                        <h3 class="middle-text-white-bold">istanbul konumunda tanıyor olabileceğiniz kişiler.</h3>
+                        <button class="btn-square">Tümünü gör</button>
+                    </div>
+                    <div class="regular-card-big__body">
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-card2">
+                            <div class="user-card2__header">
+                                <div class="user-card2__header__img">
+                                    <img src="../img/another-user.jpg" alt="">
+                                </div>
+                                <div class="user-card2__header__info">
+                                    <p class="small-text-white">Lorem, ipsum.</p>
+                                    <p class="small-text-gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, accusamus.</p>
+                                </div>
+                            </div>
+                            <div class="user-card2__body">
+                                <div class="user-card2__body__make-contact">
+                                    <button class="btn-contact">Bağlantı kur</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+  
+</body>
+</html>

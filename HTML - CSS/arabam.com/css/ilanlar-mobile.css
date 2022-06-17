@@ -1,0 +1,115 @@
+@media (max-width:540px){
+
+    .content-container {
+        width: 1280px;
+        margin: 0 auto;
+    }
+
+    .for-sale-area__list{
+            display: none;
+    }
+
+    .for-sale-area__bar {
+        display: none;
+    }
+
+    .second-hand-bar{
+        display: none !important;
+    }
+
+    .navbar__down-2{
+        display: none !important;
+    }
+
+    .hidden-area-buttons-2{
+       
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hidden-area-buttons-2 a{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    
+    .hidden-area-buttons-2-down h3, .hidden-area-buttons-2-down h3 span{
+        font-size: 35px;
+        padding: 20px;
+        background-color: var(--dark-black);
+    }
+
+    .hidden-area-sale-card{
+        display: block;
+    }
+
+    .sale-card{
+        display: flex;
+        background-color: var(--dark-black);
+        margin: 20px 0;
+    }
+
+    .sale-card__img img{
+        width: 450px;
+    }
+
+    .sale-card__content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .sale-card__content__header h3{
+        font-size: 50px;
+        font-weight: 300;
+    }
+
+    .sale-card__content__info{
+        display: flex;
+        justify-content: space-between;
+    ;
+    }
+
+    .sale-card__content__info .small-text-light-gray{
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .sale-card__content__info .middle-text-red{
+        font-size: 40px;
+    }
+
+    .yellow-bar{
+        font-size: 30px;
+        height: 70px;
+    }
+
+    .page-change-area__info-a p{
+        font-size: 40px;
+    }
+
+    
+    .pagination-first li:nth-of-type(6){
+        display: inline-block;
+    }
+    
+    .pagination-first li:nth-of-type(3), .pagination-first li:last-child{
+        display: none;
+    }
+
+ 
+
+    .pagination li a{
+        font-size: 40px;
+        width: 80px;
+        text-align: center;
+    }
+
+    .page-change-area__info-b span{
+        font-size: 40px;
+    }
+
+}

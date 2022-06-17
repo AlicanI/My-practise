@@ -1,0 +1,363 @@
+
+@media (max-width:1250px) {
+    nav{
+        .container{
+            .nav{
+                &__left{
+                    &__search{
+                        width: 200px !important; 
+
+                        input{
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .core-area{
+        .container-2{
+            grid-template-columns: 1fr 1fr;
+            padding: 0 11rem;
+            .middle-side{
+                .main-user-card{
+                    
+
+                    &__body{
+                        gap: 5rem;
+                    }
+
+                    
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:1145px) {
+    nav{
+        .container{
+
+            .nav{
+                &__left{
+                    &__search{
+                        display: none;
+                        width: 125px !important;
+                        input{
+                            width: 70px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    nav{
+        .container{
+            
+            .nav{
+                padding-top: .7rem !important;
+                justify-content:flex-start !important;
+                gap: 2rem;
+                
+                &__left{
+                    &__search{
+                        display: none; 
+                    }
+
+                    
+                }
+
+                &__right{
+                    &__links{
+                        gap: 4.5rem !important;
+                        
+                        li{
+                            a{
+                                p{
+                                    display: none;
+                                }
+                            }
+                            &:first-child{
+                                display:flex !important;
+                               
+                            }
+
+                            
+
+                            button{
+
+                                p{
+                                    display: none;
+                                }
+
+                                i{
+                                    font-size: 2rem;
+                                }
+                                align-items: center;
+                                justify-content: center;
+                                font-size: 1.6rem;
+                                border: none !important;
+                                padding: 0 0 0 1.5rem;
+
+                               .btn-square__text{
+                                   display: none !important;
+                               }
+                            }
+
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+
+   .core-area{
+        
+        .container-1{
+            padding: 0 1rem;
+            grid-template-columns: 1fr 3fr;
+            .right-side{
+                display: none;
+            }
+        }
+
+    
+        .container-3{
+            display: flex;
+            flex-direction: column;
+            padding: 0 2rem;
+        }
+    
+        .container-2{
+            padding: 0 2rem;
+            .middle-side{
+                .main-user-card{
+                    width: 100%;
+
+                    
+                    &__body{
+                        gap: 2rem !important;
+
+                        &__right{
+                            display: none;
+                        }
+                    }
+                    
+                   
+                .normal-card{
+                    width: 100%;
+                    &__footer{
+                        flex-direction: column;  
+                    }
+                }
+            }
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    }
+
+
+    
+ 
+
+   
+}
+
+
+@media (max-width:835px) {
+    nav{
+        .container{
+            padding: 0 5rem;
+
+            }
+        }
+    }
+
+
+    .core-area{
+        .container-2{
+            .middle-side{
+                .normal-card{
+                    &__footer{
+                        flex-direction: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:768px) {
+    nav{
+        .container{
+            padding: 0 9rem;
+            .nav{
+                &__right{
+                    &__links{
+                        .premium-link{
+                            display: none;
+                        }
+
+                        li{
+                            .btn-square{
+                                padding: 0;
+                            }
+                        }
+
+                        li:nth-of-type(8){
+                            display: none !important;
+                        }
+                       
+
+                        .hidden-li{
+                            display: flex !important;
+                            justify-content: center;
+                            align-items: center;
+                            button{
+                                padding: 0;
+                                border: none;
+                                background-color: transparent;
+                                i{
+                                    color: $soft-white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .core-area{
+        .container-2{
+            display: flex;
+            flex-direction: column;
+            padding: 0 2rem;
+
+            
+        }
+        .container-1{
+            display: inline-block;
+            padding: 0 8rem;
+
+            .left-side{
+                .user-card{
+                    &__header{
+                        padding-bottom: 1rem;
+                        &__top{
+                            img{
+                                left: 45% !important;
+                            }
+                        }
+                    }
+
+                    &__body{
+                        display: none !important;
+                    }
+                }
+
+                .hidden__button-more{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 40px;
+                    background-color: transparent;
+                    border: none;
+                    gap: 1rem;
+                }
+                .regular-card{
+                    display: none !important;
+                }
+            }
+
+            .middle-side{
+                &__user-share-card{
+                    margin-top: 0 !important;
+                }
+            }
+
+            .right-side{
+                display: inline-block;
+
+                .add-flow-card{
+                    width: 100% !important;
+                }
+
+                .like-footer{
+                    padding: 2rem 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:600px) {
+
+    .navigation{
+        nav{
+            .container{
+                padding: 0 3rem;
+            }
+        }
+    }
+
+    .core-area{
+        .container-1 {
+            padding: 0;
+        }
+    }
+    
+}
+
+
+@media (max-width:550px) {
+    .navigation{
+        nav{
+            .container{
+                .nav{
+                    &__right{
+                        &__links{
+                            li:nth-of-type(7){
+                                display: none !important; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:480px) {
+    .navigation{
+        nav{
+            .container{
+                .nav{
+                    padding: 0 1px;
+                }
+            }
+        }
+    }
+}
+

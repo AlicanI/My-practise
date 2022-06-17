@@ -1,0 +1,642 @@
+
+%container-shared{
+    max-width: $max-width;
+    padding: 0 9rem;
+    margin: auto;
+}
+
+.container{
+    &{
+        @extend %container-shared;
+    }
+
+    &-1{
+        @extend %container-shared;
+        display: grid;
+        grid-template-columns: 1fr 2.5fr 1.4fr;
+        gap: 2rem;
+    }
+    &-2{
+        @extend %container-shared;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    &-3{
+        @extend %container-shared;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 2rem;
+
+    }
+
+    &-footer{
+        max-width:1350px;
+        padding: 0 9rem;
+        margin:auto;
+    }
+}
+
+
+
+
+
+
+%btn-shared {
+    display: inline-block;
+    padding: .7rem 2rem;
+    transition: all .5s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn{
+
+
+
+    &-square{
+        @extend %btn-shared;
+        color: $gray;
+        background-color: transparent;
+        border-radius: 5px;
+
+        &:hover{
+            background-color: $black
+        }
+    }
+
+    &-follow{
+        @extend %btn-shared;
+        color: $gray;
+        background-color: transparent;
+        border: 1px solid #000;
+        font-size: 1.6rem;
+        border-radius: 15px;
+        width: 106px;
+        padding: 0.7rem 1rem;
+
+        &:hover{
+           background-color: #000;
+           color: $soft-white;
+        }
+    }
+
+    &-share{
+        @extend %btn-shared;
+        background-color: transparent;
+        width:100%;
+        border: 1px solid $gray;
+        border-radius: 25px;
+    }
+
+    &-share-mini{
+        @extend%btn-shared;
+        background-color: transparent;
+    }
+
+    &-contact{
+        @extend %btn-shared;
+        color: $blue;
+        background-color: transparent;
+        border: 1px solid #000;
+        font-size: 1.6rem;
+        border-radius: 15px;
+        width: 130px;
+        padding: 0.7rem;
+
+        &:hover{
+           background-color: #000;
+           color: $light-blue;
+        }
+    }
+
+    &-contact-info{
+        @extend %btn-shared;
+        color:$blue;
+        border: none;
+        background-color: transparent;
+        padding: .5rem;
+
+      
+    }
+
+    &-see-feed{
+        @extend %btn-shared;
+        width: 200px !important;
+        color: $blue;
+        background-color: transparent;
+        border: 1px solid $blue;
+        font-size: 1.6rem;
+        border-radius: 15px;
+        width: 130px;
+        padding: 0.7rem;
+    
+        &:hover{
+           background-color: #000;
+           color: $light-blue;
+        }
+    }
+
+    &-more{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+
+        &:hover{
+            background-color: $black;
+            color: $light-blue;
+        }
+    }
+
+    &-solid-blue{
+        @extend %btn-shared;
+        background-color: $light-blue;
+        color: $white;
+        font-weight: bold;
+        font-size: 1.6rem;
+        border-radius:15px;
+        &:hover{
+            background-color: $blue;
+        }
+    }
+
+    
+}
+
+// Underline
+
+%underlined-shared{
+    transition: all .5s;
+}
+
+.underlined{
+    &:hover{
+        @extend %underlined-shared;
+        text-decoration: underline;
+        color: $white;
+    }
+
+    &-blue:hover{
+        @extend %underlined-shared;
+        text-decoration: underline;
+        color: $light-blue;
+    }
+
+
+}
+
+// Font sizes
+
+%small-shared{
+    font-size: 1.2rem;
+}
+
+%middle-shared{
+    font-size: 1.4rem
+}
+
+%middle2-shared{
+    font-size: 1.8rem;
+}
+
+%big-shared{
+    font-size: 2rem;
+}
+
+
+.small{
+
+    &-text-white{
+        @extend %small-shared;
+        color: $white;
+    
+    }
+    &-text-white-bold{
+        @extend %small-shared;
+        color: $white;
+        font-weight: 700;
+    }
+    &-text-soft-white-bold{
+        @extend %small-shared;
+        color: $soft-white;
+        font-weight: 700;
+    }
+    
+    &-text-gray{
+        @extend %small-shared;
+        color: $gray; 
+        
+    }
+    
+    &-text-gray-bold{
+        @extend %small-shared;
+        color: $gray;
+        font-weight: bold;
+    }
+
+    &-text-blue{
+        @extend %small-shared;
+        color: $blue;
+    }
+
+}
+
+
+.middle{
+    &-text-gray{
+        @extend %middle-shared;
+        color: $gray;
+    }
+
+    &-text-gray-bold{
+        @extend %middle-shared;
+        color: $gray;
+        font-weight: bold;
+    }
+
+    &-text-white{
+        @extend %middle-shared;
+        color: $soft-white;
+    }
+    &-text-white-bold{
+        @extend %middle-shared;
+        color: $soft-white;
+        font-weight: bold;
+    }
+
+    &-text-blue-bold{
+        @extend %middle-shared;
+        color: $blue;
+        font-weight: bold
+    }
+
+    &-text-turqua-bold{
+        @extend %middle-shared;
+        color: $turqua;
+        font-weight: bold;
+    }
+}
+
+.middle2{
+    &-text-white{
+        @extend %middle2-shared;
+        color: $soft-white;
+    }
+}
+
+.big{
+    &-text-white{
+        @extend %big-shared;
+        color: $soft-white;
+        font-weight: 100;
+    }
+
+    &-text-white-bold{
+        @extend %big-shared;
+        color: $soft-white;
+        font-weight: 100;
+        font-weight: bold;
+    }
+
+
+}
+
+
+// lines
+
+.gray-line{
+    border-top-color: $gray;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: 2rem 0;
+    width: 65%;
+    
+}
+
+.fast-card{
+    width: 100%;  
+    padding: 1.5rem; 
+    position: relative;
+    border: 1px solid $gray;
+    border-radius: 10px;
+
+    p{
+        padding-right: 1.5rem;
+    }
+    i{
+        position: absolute;
+        top: .5rem;
+        right: 0;
+        padding: 1rem;
+        color: $soft-white;
+        font-size: 1.6rem;
+        border-radius: 50%;
+        cursor: pointer;
+        &:hover{
+            background-color: $black;
+        }
+    }
+}
+
+// Cards
+.regular-card3{
+    display: flex;
+    flex-direction: column;
+    background-color: $black;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    &__item{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding: 1.5rem;
+        width: 100%;
+        i{
+            color: $gray;
+        }
+    }
+
+        
+}
+
+.normal-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: $black;
+    margin-top: 2rem;
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+    &__body{
+        &__bar{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+    &__footer{
+        display: flex;
+        gap: 2rem;
+        &__content{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            border: 1px solid $gray;
+            border-radius: 10px;
+            padding: 2rem;
+            &__a{
+                display: flex;
+                align-items: flex-start;
+                gap: 1rem;
+                img{
+                    padding-right: 1rem;
+                }
+                h3{
+                    padding-right: 3rem;
+                }
+
+               
+                i{
+                    display: inline-block;
+                    color: $soft-white;
+                    font-size: 1.6rem;
+                    
+                    
+                    
+                }
+
+                &:last-child{
+                    align-self: center;
+                    justify-content: center;
+                }
+            }
+
+            &__b{
+                p{
+                    padding-right: 1rem;
+                }
+            }
+        }
+    }
+}
+
+// just color
+
+.turqua-text{
+    color: $turqua;
+}
+
+.blue-text{
+    color: $blue;
+}
+
+.gray-text{
+    color: $gray;
+}
+
+// bar
+
+.complete-bar{
+    width: 100%;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #000;
+    display: flex;
+
+    &__inner{
+        background-color: $gray;
+        width: 60%;
+        height: 10px;
+        border-radius: 5px;
+    }
+    
+}
+
+
+// scale img
+
+.mini-img{
+    width: 50px;
+    height: 50px;
+}
+
+.mini-img-2{
+    width: 60px;
+    height: 60px;
+}
+
+
+
+// Indipandent Icons
+
+.ind-icon{
+    position: absolute;
+    right: 4rem;
+    top: 0;
+    color: $soft-white;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 1rem;
+    font-size: 1.8rem;
+    &:hover{
+        background-color: #000;
+    }
+
+    &:last-child{
+        right: 0;
+    }
+
+}
+
+// border bottoms
+
+
+.border-bottom-turqua{
+    display: inline-block;
+    border-bottom: 1px solid $turqua;
+}
+
+
+// Box
+
+.box{
+    margin-top: 2rem;
+    border-radius: 15px;
+    background-color: $black;
+    display: flex;
+    flex-direction: column;
+    &__content{
+        border-bottom: 1px solid $gray;
+        margin: 0 1rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+           &:last-child{
+               border: none;
+           }
+    }
+}
+
+
+.like-footer{
+    padding: 2rem 5rem;
+    ul{
+        display: inline-block;
+        margin: auto;
+        li{
+            display: inline-block;
+            padding: .5rem;
+             
+            button{
+                border: none;
+                background-color: transparent;
+                color: $gray;
+                cursor: pointer;
+
+                span{
+                    i{
+                        margin-left:5px;
+                    }
+                }
+            }
+        }
+    }
+
+    div{
+        margin-left: .5rem;
+        p{
+            span{
+                color: $blue;
+            }
+            i{
+                color: $blue;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+.regular-card-big{
+    padding: 4rem 0 0rem;
+    background-color: $light-black;
+    border-radius: 10px;
+    
+
+    &__body{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 2rem 1rem 0;
+        .user-card2{
+            width: 175px;
+            height: 300px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border: 1px solid $dark-black;
+            background-color: $black;
+            border: 10px;
+            margin-bottom: 2rem;
+            
+            &__header{
+                background-color: aliceblue;
+
+                height: 60px;
+                &__img{
+                    display: flex;
+                    justify-content: center;
+
+                    img{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        margin-top: 15px;
+                    }
+                }
+
+                &__info{
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                }
+            }
+
+            &__body{
+                margin-bottom: 2rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+           
+        }
+
+       
+    }
+
+    &__footer{
+       
+        border-top: 1px solid $gray;
+        
+        a{
+            display: inline-block;
+            height: 100%;
+            width: 100%;
+            padding: 1rem 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+
+            &:hover{
+                background-color: $black;
+                color: $light-blue;
+            }
+        }
+
+        
+
+    }
+}

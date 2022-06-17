@@ -1,0 +1,81 @@
+#main-footer{
+    margin-top: 4rem;
+    footer{
+        .container-footer{
+            .main-footer__header{
+                h1{
+                    i{
+                        color: $blue;
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+            .main-footer__body{
+                &__content{
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+
+                    &__a{
+                        li{
+                            padding: 1rem 0;
+                        }
+                    }
+
+                    &__b{
+                        li{
+                            padding: 1rem 0;
+                        }
+                    }
+                    &__c{
+                        li{
+                            padding: 1rem 0; 
+                        }
+                    }
+                    &__d{
+                        li{
+                            display: flex;
+                            align-items: flex-start;
+                            gap: 1rem;
+                            padding: 1rem 0;
+                            i{
+                                color: $gray;
+                            }
+                        }
+                    }
+                    &__e{
+                        width: 300px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: flex-start;
+
+                        select{
+                            padding: 0.5rem 1rem;
+                            background-color: $black;
+                            color: $soft-white;
+                            border-color: $dark-black;
+                        }
+                    }
+                }
+            }
+
+            .main-footer__footer{
+                p{
+                    margin: 2rem 0;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1000px) {
+    #main-footer{
+        footer{
+            .container-footer{
+                width: 100%;
+                padding: 0;
+                margin: auto;
+            }
+        }
+    }
+}

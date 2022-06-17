@@ -1,0 +1,144 @@
+
+#core-area{
+    .container-3{
+        .left-side{
+            .manage-contact{
+                
+                margin-top: 2rem;
+                background-color: $black;
+                border-radius: 5px;
+                
+                &__header{
+                    padding: 1.5rem;
+                }
+
+                &__body{
+                    ul{
+                    
+                        li{
+                            a{
+                                display: flex;
+                                gap: 1rem;
+                                align-items: center;
+                                padding-right: .5rem;
+                                padding: 1rem 2rem; 
+                                transition: all .6s;
+                             
+                                
+    
+                                &:hover{
+                                    background-color: #000;
+                                }
+                            }
+    
+                            i{
+                                font-size: 1.8rem;
+                            }
+    
+                            
+                            button{
+                                width: 100%;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                background-color: transparent;
+                                border: none;
+                                color: $gray;
+                                font-size: 1.6rem;
+                                font-weight: bold;
+                                padding: 1rem 2rem;
+    
+                                i{
+                                    margin-right: 11rem;
+                                }
+    
+                                &:hover{
+                                    background-color: #000;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &__footer{
+                    button{
+                        border-top: 1px solid $dark-black;
+                        border-bottom: 1px solid $dark-black;
+                        width: 100%;
+                        font-size: 1.6rem;
+                        font-weight: 700; 
+                        padding: 1.5rem;
+                        &:hover{
+                            background-color: $dark-black;
+                        }
+                    }
+                }
+              
+            }
+        }
+
+
+        .middle-side{
+            .invitation{
+                margin-top: 2rem;
+                &__inner{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    background-color: $black;
+                    padding: 1rem 1.5rem;
+                    border-radius: 5px;
+                }
+
+                a{
+                    padding: .5rem 1rem;
+                    border-radius: 3px;
+                    transition: all .6s;
+
+                    &:hover{
+                    background-color: #000;
+
+                    }
+                }
+            }
+
+     
+
+            .add-personal-contact{
+                background-color: $black;
+                margin-top: 2rem;
+                padding: 4rem;
+                position: relative; 
+                border-radius: 10px;
+                &__header{
+                    display: flex;
+                    align-items: center;
+                    gap: 2rem;
+                    
+                }
+
+               &__body{
+                   input{
+                       width: 100%; 
+                       background-color: transparent; 
+                       color: $soft-white;
+                       padding: .5rem;
+                       border: 1px solid $dark-black;
+                       outline: none; 
+                   } 
+               }
+
+               &__footer{
+                   display: flex;
+                   flex-direction: column;
+                   button , a{
+                       margin-top: 1rem;
+                   }
+
+                  
+               }
+            }
+        }
+
+    }   
+}

@@ -1,0 +1,89 @@
+#core-area{
+    .container-1{
+        .left-side{
+           
+
+            .btn-see-feed {
+                border-color: $blue;
+                width: 100% !important;
+                margin-top: 2rem;
+                padding: 1rem;
+            }
+        }
+
+        .middle-side{
+            .regular-card3{
+                
+          
+                &__item{
+                    justify-content: space-between;
+                    padding: 1.5rem 1.5rem 0 1.5rem;
+                }
+                &__item-company{
+                    display: flex;
+                    gap: 1rem;
+                    padding: 2rem 1rem;
+                    border-bottom: 1px solid $gray;
+                   
+                    
+                    &:hover{
+                        .eye{
+                            display: inline-block;
+                            
+                        }
+    
+                        .job-name{
+                            text-decoration: underline;
+                           
+                        }   
+                    }
+                    &__img{
+                        img{
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                    &__content{
+                        width: 100%;
+
+                        &__name-icons{
+                            display: flex;
+                            justify-content: space-between;
+
+                            &__icon{
+                                display: flex;
+                                gap: 2rem;
+
+                              i{
+                                 
+ 
+                                  &:first-child{
+                                      display: none;
+                                  }
+                                
+                              }
+                            }
+                        }
+
+                        &__info{
+                            p{
+                                padding: .5rem;
+                            }
+                            p:nth-of-type(2){
+                                span{
+                                    margin-left: .5rem;
+                                }
+                            }
+
+                            p:nth-of-type(3) {
+                                i{
+                                    margin-left: .5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}

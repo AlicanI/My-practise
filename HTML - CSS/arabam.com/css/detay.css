@@ -1,0 +1,617 @@
+@import url('utils.css');
+
+
+/* Navbar */
+
+
+.navbar__down-2{
+    display: flex;
+    flex-direction: row;
+    width: 1250px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar__down-container-2__left a.small-text-white-4{
+    margin-left: 20px;
+}
+
+
+.annunciation__header{
+    margin: 20px 0;
+}
+
+
+/* Middle Area */
+
+.middle-area{
+    display: flex;
+    
+}
+
+.annunciation__card{
+    display: flex;
+    gap: 20px;
+}
+
+.annunciation__card__img__big{
+    width: 600px;
+    height: 500px;
+    background: url('../img/red-car.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 480px;
+    box-shadow: 5px 1px 40px var(--dark-black);
+
+}
+
+.annunciation__card__img__bar {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    align-items: space-between;
+    align-items: center;
+    background-color: var(--dark-black);
+}
+
+.annunciation__small-icon{
+    margin: auto;
+}
+
+.annunciation__small-icon i{
+      font-size: 18px;
+}
+
+
+.annunciation__small-imgs {
+    width:550px;
+    height: 80px;
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.annunciation__small-img{
+    width: 81px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.card-of-detail{
+    width: 310px;
+    padding: 10px;
+    background-color: var(--dark-black);
+}
+
+.card-of-detail-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-of-detail-head__credit a img{
+    width: 100px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.card-of-detail-head__credit .small-text-blue-2{
+    display: flex;
+    margin-bottom: -5px;
+}
+
+.card-of-detail-head__credit__img{
+    margin-top: -15px;
+    margin-bottom: -20px;
+}
+
+
+.card-of-detail-body-header h3{
+    margin: 10px 0;
+}
+
+
+.card-of-detail-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.information-of-car{
+    display: flex;
+    border: 1px solid var(--gray);
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+    padding-top: 5px;
+}
+
+.information-of-car:last-child{
+    border: 1px solid var(--gray);
+    border-right: none;
+    border-left: none;
+
+}
+
+.information-of-car h3:first-child{
+    width: 50%;
+    display: block;
+    float: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.information-of-car:nth-of-type(12) h3 a:hover{
+    text-decoration: underline;
+}
+
+
+.card-of-detail-foot{
+    display: flex;
+    justify-content: center;
+}
+
+.card-of-detail-foot a{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.card-of-detail-foot a i{
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.card-of-detail-foot a:hover{
+    color: var(--red);
+}
+
+.card-of-detail-foot a{
+   width: 33%;
+   padding: 0 30px;
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   border-right: 1px solid var(--gray);
+}
+
+.card-of-detail-foot a:first-child{
+    padding: 0 20px;
+}
+
+.card-of-detail-foot a:last-child{
+    border-right: none;
+}
+
+
+.right-side{
+    width: 300px;
+}
+
+.ask-owner{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-top: 3px solid var(--yellow);
+    
+}
+
+.ask-owner-head a:first-child{
+    padding: 8px 17px;
+    border: 1px solid var(--yellow);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.ask-owner-head {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 20px;
+    background-color:var(--background-soft-yellow);
+    
+
+}
+
+.ask-owner-head a:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.ask-owner-head h3{
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    background-color: var(--dark-black);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+.ask-owner-head h3 span:first-child{
+    margin: 0 auto;
+}
+
+
+.ask-owner-head h3 span:last-child{
+    width: 60px;
+    margin-left: 10px;
+}
+
+
+.ask-owner-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-black);
+}
+
+.owner-name{
+    margin: 10px 0;
+}
+.ask-owner a{
+    margin: 10px 0;
+}
+
+
+.asking-button a span:hover{
+    text-decoration: underline;
+}
+
+
+.ask-damage{
+    width: 100%;
+    background-color: var(--dark-black);
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ask-damage__header h3{
+    margin: 10px 0;
+}
+
+.ask-damage__content{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.ask-damage__content input{
+    background-color: var(--dark-black);
+    color: var(--white);
+    border: 1px solid var(--gray);
+    padding-left: 10px;
+    font-size: 12px;
+    flex-grow: 0.6;
+}
+
+
+
+.attention-for-second-hand{
+    width: 100%;
+    background-color: var(--dark-black);
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    
+}
+
+.attention-for-second-hand a{
+    margin: 0 20px;
+    margin-bottom: 5px;   
+}
+
+.attention-for-second-hand a:hover{
+    text-decoration: underline;
+}
+
+.bank-credit-area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bank-credit-card{
+    background-color: var(--dark-black);
+    border: 1px solid var(--gray);
+    
+}
+
+.bank-credit-card__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.bank-credit-card__body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bank-credit-card__body__up{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    gap: 10px;
+    
+}
+
+.bank-credit-card__body__down{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.bank-credit-card__body__down .credit-cell {
+    width: 100%;
+}
+
+.bank-credit-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-credit-card__header img{
+    width: 120px;
+    height: 38px;
+}
+
+.credit-cell{
+    display: flex;
+    flex-direction: column;
+    
+    width: 33%;
+}
+
+.credit-cell input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid var(--gray);
+    color: var(--white);
+    padding: 5px;
+}
+
+.credit-cell select{
+    background-color: transparent;
+    color: var(--white);
+    height: 26px;
+}
+
+.credit-cell select option{
+    background-color: var(--dark-black);
+    color: var(--white);
+}
+
+
+.now-apply button{
+    margin: 10px;
+}
+
+.complane{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.complane a{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.complane a:hover{
+    color: var(--red);
+}
+
+.complane a i{
+    display: inline-block;
+    margin: auto 0;
+}
+
+.annuciation__info{
+    margin-top: 20px;
+    background-color: var(--dark-black);
+    border: 1px solid var(--gray);
+}
+
+.annuciation__info__bar{
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+.annuciation__info__bar a{
+    padding: 20px 0;
+}
+
+.annuciation__info__bar a:hover{
+    color: var(--red);
+}
+
+.explanation__header, .color-changed__header, .car-informations__header, .equipment__header, .take-money__header{
+    padding: 20px
+}
+
+.explanation__content h3{
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.color-changed__content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dot i{
+    font-size: 10px;
+}
+
+.content-img img{
+    padding-top: 30px;
+    padding-right: 30px;
+
+}
+
+.content-info__status{
+    padding: 20px 0;
+}
+
+
+.content-info__status h3{
+    margin: 10px 0;
+}
+
+
+.content-info__briefing{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.dot{
+    display: flex;
+    gap: 10px;
+}
+
+.tramer{
+    padding: 20px 0;
+}
+
+
+.overview-info-card{
+    display: flex;
+}
+
+.information-card{
+    padding: 20px;
+}
+
+.car-information__name{
+    padding-left: 20px;
+}
+
+.overview-name{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.information-card__row{
+    width: 400px;
+    display: flex;
+}
+
+.information-card__row:nth-of-type(odd){
+    background:var(--soft-black)
+}
+
+.information-card__row h3{
+    width: 50%; 
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.equipment{
+    padding-bottom: 20px;
+}
+
+.inner-equipment__header{
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+
+
+.inner-equipment__content {
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.inner-equipment__content h3 span{
+    padding-right: 5px;
+}
+
+.take-money{
+    margin-bottom: 50px;
+}
+
+
+.take-money__content{
+    border: 1px solid var(--gray);
+    margin: 20px 30px;
+    padding: 20px;
+}
+
+.take-money__content__img img{
+    width: 200px;
+}
+
+.take-money__content__text a{
+    width: 750px;
+    display: flex;
+    background-color: var(--dark-blue);
+    border: 1px solid var(--blue);
+    padding: 30px 20px;
+    position: relative;
+}
+
+.take-money__content__text a h3{
+    padding-right: 100px;
+}
+
+.take-money__content a i{
+    font-size: 139px;
+    position: absolute;
+    right: -90px;
+    bottom: -6px;
+    color: var(--blue);
+}
+
+.detay-hidden-area{
+    display: none; 
+}
+
+.detay-hidden-area-2{
+    display: none;
+}
+
+.hidden-footer{
+    display: none;
+}
